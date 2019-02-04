@@ -1,0 +1,41 @@
+.footer{
+    margin-top: 60px;
+    width:100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display:flex;
+    flex-flow:row;
+}
+
+.footer > div{
+    width:50%;
+}
+
+.contact {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+}
+.contact > div:first-child{
+    margin-right: 15px;
+}
+
+.info {
+    display: flex;
+    flex-flow:column;
+    border-right: 1px solid;
+}
+
+.info > div{
+    width: 90%;
+    padding: 4% 5%;
+}
+
+.info > div:first-child > h2{
+    width: max-content;
+    margin: 0 auto;
+}
+
+.shop-list > ul > li {
+    list-style: none;
+}

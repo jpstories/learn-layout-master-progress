@@ -1,0 +1,30 @@
+.post {
+    background: rgb(248, 242, 242);
+    padding:15px;
+}
+
+.cont-post {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap:15px;
+}
+
+.post-image > img{
+    width:100%;
+}
+
+.post-info {
+    display:flex;
+    flex-flow: row;
+}
+
+.view-count {
+    margin-right:10px;
+}
+.post > div{
+    padding-top: 7px;
+}
+
+.post > div:first-child{
+    padding:0;
+}

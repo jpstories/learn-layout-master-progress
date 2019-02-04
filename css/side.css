@@ -1,0 +1,30 @@
+.side-bar {
+    height:max-content;
+    display:flex;
+    flex-flow:column;
+    border: 1px solid #ccc;
+}
+.side-bar > div{
+    width:100%;
+    background: #ffffff;
+}
+
+.side-bar-post > div{
+    margin:15px 3px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #777;
+}
+.side-bar-post div:last-child{
+    border:none;
+}
+
+/*?*/
+.side-bar-post h2{
+    margin-left: 10%;
+    padding: 5px 5px 3px 5px;
+}
+
+.quote {
+    height:200px;
+    border: none;
+}
