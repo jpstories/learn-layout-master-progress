@@ -10,13 +10,22 @@
         <link href="css/structure.css" rel="stylesheet">
         <link href="css/post.css" rel="stylesheet">
         <link href="css/side.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/mobile-menu.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <div class="header">
+
+            <div class="gamburger-menu">
+               <a href="#"><p>Menu</p></a>
+            </div>
+
+
             <div class="search">
                 <input type="search" placeholder="Andrey...">
             </div>
+
+
             <nav>
                 <ul>
                     <li><a href="#">Товар</a></li>
@@ -29,6 +38,19 @@
             </nav>
         </div>
         
+
+        <!----------------------------->
+       <div class="menu-mobile hidden">
+                <ul>
+                    <li><a href="#">Товар</a></li>
+                    <li><a href="#">О магазине</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Как добраться?</a></li>
+                    <li><a href="#">Ещё...</a></li>
+                </ul>
+       </div>
+       <!---->
 
 <!------------------------------------------------------------>      
         <div class="wrap">
@@ -283,5 +305,9 @@
                 Hello
             </div>
         </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
     </body>
 </html>

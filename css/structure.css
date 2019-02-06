@@ -36,7 +36,7 @@
     display: flex;
     flex-flow:column;
     background: #ffffff;
-    width: 95%;
+    width: 90%;
     padding: 10px 20px 20px 20px;
 }
 .post-large-info > div{
